@@ -1,0 +1,11 @@
+Goal:
+Using the 'pylint' package, you can better understand how well your code matches
+ python coding standards. Pylint will output a compliance score.
+
+Installing Pylint:
+From Terminal, execute the following command...
+    pip3 install pylint
+
+
+To Run, use the following terminal command...
+    py -m pylint fileName.py
