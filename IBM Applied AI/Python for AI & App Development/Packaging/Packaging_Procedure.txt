@@ -1,0 +1,14 @@
+Creating a Package
+	1) Populate modules
+	2) Populate __init__.py file
+	3) Verify from Python Console
+    4) Test
+
+Use the following command from the directory the package is stored.
+Success if command runs without errors.
+    import myproject
+
+
+Test your module from a python console using any function defined in the
+package's modules.
+    {packageName}.{moduleName}.{function}(parameters)
