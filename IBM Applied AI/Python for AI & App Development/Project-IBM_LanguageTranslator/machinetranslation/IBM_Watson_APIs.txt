@@ -1,4 +1,5 @@
-IBM Watson
+IBM Watson API Information
+- Use the information provided
 
 Documentation
 https://cloud.ibm.com/apidocs/language-translator

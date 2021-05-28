@@ -1,4 +1,14 @@
 IBM Watson Language Translator
+Des: The 'translator.py' is a python module that defines two functions that will
+        allow a user to convert text from English to French or German using the
+        IBM Watson Language Translator API.
+     All needed information needed to connect/run the API is provided in the
+        'IBM_Watson_APIs.txt' file.
+     Google Translate was used to verify the operation of the IBM Watson API.
+        Unfortunately, there are differences between these two services. Please
+        see below for more information regarding the performance of the Watson
+        API.
+
 
 
 WARNING
