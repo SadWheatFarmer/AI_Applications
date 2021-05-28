@@ -1,0 +1,19 @@
+IBM Watson
+
+Language Translator
+URL: https://api.us-south.language-translator.watson.cloud.ibm.com/instances/5f48ed0d-4238-4607-bdfe-307366425776
+API Key:  CzyI_s7p_YCQXJFjTFkOWiOLzfziH-t1HyzScVh41fcN
+
+
+Speech To Text
+URL: https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/12dd3d81-e1d7-49d1-acef-f248d2fefb05
+API Key: r3nUeqTdDyrUTKwogRYK_4xEa1IQSfDPYe7KVplO3oEJ
+
+{
+  "apikey": "r3nUeqTdDyrUTKwogRYK_4xEa1IQSfDPYe7KVplO3oEJ",
+  "iam_apikey_description": "Auto-generated for key 1f868b06-6261-4744-88b2-6348ba89201a",
+  "iam_apikey_name": "Auto-generated service credentials",
+  "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+  "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/4e2bb2e5b63e4676b8db70b18235df9c::serviceid:ServiceId-60f81a6c-7ace-4046-8f54-e830411ab9e5",
+  "url": "https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/12dd3d81-e1d7-49d1-acef-f248d2fefb05"
+}
