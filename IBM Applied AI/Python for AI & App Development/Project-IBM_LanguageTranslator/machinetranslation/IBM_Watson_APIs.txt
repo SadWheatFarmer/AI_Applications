@@ -1,5 +1,8 @@
 IBM Watson
 
+Documentation
+https://cloud.ibm.com/apidocs/language-translator
+
 Language Translator
 URL: https://api.us-south.language-translator.watson.cloud.ibm.com/instances/5f48ed0d-4238-4607-bdfe-307366425776
 API Key:  CzyI_s7p_YCQXJFjTFkOWiOLzfziH-t1HyzScVh41fcN
