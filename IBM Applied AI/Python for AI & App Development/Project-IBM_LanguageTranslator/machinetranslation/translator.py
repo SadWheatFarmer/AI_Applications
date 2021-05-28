@@ -16,7 +16,7 @@ from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 from ibm_watson import LanguageTranslatorV3
 
 # IBM API information
-LANGUAGE_API_KEY = "CzyI_s7p_YCQXJFjTFkOWiOLzfziH-t1HyzScVh41fcN"
+LANGUAGE_API_KEY = "--Login to IBM Watson for Key--"
 LANGUAGE_API_URL1 = "https://api.us-south.language-translator.watson.cloud.ibm"
 LANGUAGE_API_URL2 = ".com/instances/5f48ed0d-4238-4607-bdfe-307366425776"
 LANGUAGE_API_URL = LANGUAGE_API_URL1 + LANGUAGE_API_URL2
@@ -31,10 +31,13 @@ def english_to_french(en_text):
     """
 
     # Initialize the IBM Watson API
-    authenticator = IAMAuthenticator(LANGUAGE_API_KEY)
-    language_translator = LanguageTranslatorV3(version=VERSION_LT,
-                                               authenticator=authenticator)
-    language_translator.set_service_url(LANGUAGE_API_URL)
+    if LANGUAGE_API_KEY == "--Login to IBM Watson for Key--":
+        print("[ERROR] Please fill in the IBM Watson API Key.")
+    else:
+        authenticator = IAMAuthenticator(LANGUAGE_API_KEY)
+        language_translator = LanguageTranslatorV3(version=VERSION_LT,
+                                                   authenticator=authenticator)
+        language_translator.set_service_url(LANGUAGE_API_URL)
 
     # Prevent user from trying to translate null values.
     if en_text != "":
@@ -59,10 +62,13 @@ def english_to_german(en_text):
     """
 
     # Initialize the IBM Watson API
-    authenticator = IAMAuthenticator(LANGUAGE_API_KEY)
-    language_translator = LanguageTranslatorV3(version=VERSION_LT,
-                                               authenticator=authenticator)
-    language_translator.set_service_url(LANGUAGE_API_URL)
+    if LANGUAGE_API_KEY == "--Login to IBM Watson for Key--":
+        print("[ERROR] Please fill in the IBM Watson API Key.")
+    else:
+        authenticator = IAMAuthenticator(LANGUAGE_API_KEY)
+        language_translator = LanguageTranslatorV3(version=VERSION_LT,
+                                                   authenticator=authenticator)
+        language_translator.set_service_url(LANGUAGE_API_URL)
 
     # Prevent user from trying to translate null values.
     if en_text != "":
